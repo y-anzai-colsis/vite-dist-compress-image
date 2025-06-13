@@ -2,6 +2,7 @@
   "name": "vite-dist-compress-image",
   "version": "1.0.0",
   "description": "Vite plugin for compressing images in the build output directory",
+  "homepage": "https://github.com/y-anzai-colsis/vite-dist-compress-image",
   "main": "dist/compressImage.js",
   "type": "module",
   "scripts": {
