@@ -1,0 +1,36 @@
+{
+  "name": "vite-dist-compress-image",
+  "version": "1.0.0",
+  "description": "Vite plugin for compressing images in the build output directory",
+  "main": "dist/compressImage.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "vite build"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "image",
+    "compression",
+    "webp",
+    "avif"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "esbuild": "^0.25.5",
+    "glob": "^11.0.3",
+    "sharp": "^0.34.2",
+    "svgo": "^3.3.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "peerDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "vite": "^6.3.5"
+  }
+}
